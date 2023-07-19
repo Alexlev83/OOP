@@ -29,13 +29,15 @@ public class Cat extends Animal {
    }
     @Override
     public void fly() {
-       System.out.println(" Я не умею летать! Не нужно мной бросаться)))"); 
+       System.out.println(" Я не летаю!"); 
     }
 
      @Override
-    public void sweem() {
-       System.out.println(" Я не умею плавать! Держи меня подальше от воды"); 
+    public void swim() {
+       System.out.println(" Я плаваю!"); 
     }
-
-
+     @Override
+    public void toGo() {
+       System.out.println(" Я бегаю!"); 
+    }
 }

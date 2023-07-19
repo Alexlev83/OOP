@@ -38,14 +38,13 @@ public class Animal {
         return arg + TYPE;
     }
     protected void toGo (){
-        System.out.println("Я умею бегать как " +  TYPE);
+        System.out.println("двигаться " +  TYPE);
     }
     protected void fly (){
-        System.out.println("Я умею летать как " +  TYPE);
+        System.out.println("летать " +  TYPE);
        
     }
-     protected void sweem (){
-        System.out.println("Я умею плавать как " + TYPE);
+     protected void swim (){
+        System.out.println("плавать " + TYPE);
     }
-
 }

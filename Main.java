@@ -34,19 +34,9 @@ public class Main {
         // cat.hunt();
         cat.toGo(); // вызывается из родительского класса
         cat.fly(); // вызывается из переопределенного метода внутри класса Сat
-        cat.sweem(); // вызывается из переопределенного метода внутри класса Сat
-        System.out.println("___________________________");
-        Animal flyingFish = new FlyingFish();
-        flyingFish.fly();
-        flyingFish.toGo();
-        flyingFish.sweem();
-        System.out.println("___________________________");
-        Animal chicken = new Eagle();
-        chicken.fly();
-        chicken.toGo();
-        chicken.sweem();
-        String ownerEagle = chicken.ownerName = " Я вольная птица. У меня нет хозяина";
-        System.out.println(ownerEagle);
-        System.out.println("___________________________");
+        cat.swim(); // вызывается из переопределенного метода внутри класса Сat
+        System.out.println(" ");
+       
+       
     }
 }
